@@ -144,11 +144,11 @@ int main(int argc, char *argv[])
     // ---------------------------------------------   Read Test ----------------------------------------------------------------------
     if (strcmp(test_mode, "ST") == 0)
     {
-        printf("Start Read %ld bytes from C2H ST \n", WRITE_SIZE);
+        printf("Start Read %ld bytes from C2H ST \n", READ_SIZE);
     }
     else if (strcmp(test_mode, "MM") == 0)
     {
-        printf("Start Read %ld bytes from AXI 0x%08lx. \n", WRITE_SIZE, AXI_BASE_ADDR);
+        printf("Start Read %ld bytes from AXI 0x%08lx. \n", READ_SIZE, AXI_BASE_ADDR);
     }
 
     int64_t total_read_bytes = 0;

@@ -2,6 +2,8 @@
 
 #define DEV_PATH_C2H "/dev/xdma0_c2h_0"
 #define DEV_PATH_H2C "/dev/xdma0_h2c_0"
+#define USER_CONFIG_BAR "/dev/xdma0_user"
+
 
 #define AXI_BASE_ADDR 0x800000000UL
 

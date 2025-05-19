@@ -1,4 +1,5 @@
 .vscode
 *.o
 dma_test
+config_bar
 
